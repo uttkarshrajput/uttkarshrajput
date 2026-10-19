@@ -25,7 +25,7 @@
 99K orders modelled as a star schema with 87 DAX measures, including time intelligence, a calculation group, field parameters and row-level security. Late deliveries (6.8% of orders) get 2.3 stars against 4.3 for on-time orders, and the top 20% of sellers earn 82.6% of revenue. Every KPI is reconciled against an independent Python check.
 
 **[Online Retail Customer & Revenue Intelligence](https://github.com/uttkarshrajput/tableau-online-retail-analytics)** (Tableau, Python)
-1.07 million transactions cleaned in Python and analysed in a 6-page Tableau workbook with cohort retention, RFM segmentation and market-basket analysis. Revenue grew 2.1% while orders fell 4%, because average order value rose 6.2%. The top 20% of customers bring in 76.7% of revenue.
+1.07 million transactions cleaned in Python and analysed in a 6-page Tableau workbook with cohort retention, RFM segmentation and market-basket analysis. Revenue grew 2.1% while orders fell 4%, because average order value rose 6.2%. The top 20% of customers bring in 76.7% of revenue. [Live dashboard on Tableau Public](https://public.tableau.com/app/profile/uttkarsh.singh6558/viz/OnlineRetailCustomerRevenueIntelligence/ExecutiveOverview).
 
 **[Spotify and YouTube Track Analysis](https://github.com/uttkarshrajput/Spotify_Analysis)** (PostgreSQL)
 13 business questions answered with CTEs, CASE and window functions. An index on `artist` cut a slow query from 7.97 ms to 0.153 ms, about 52 times faster, measured with `EXPLAIN ANALYZE`.
